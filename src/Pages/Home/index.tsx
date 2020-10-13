@@ -5,6 +5,7 @@ import Carousel from '../../Components/Carousel';
 import BottomCard from '../../Components/BottomCard';
 import QuantitativeArea from '../../Components/QuantitativeArea';
 import MidContent from '../../Components/MidContent';
+import Img from 'react-cool-img';
 
 import { Container, MainContent, FeedbackArea } from './styles';
 
@@ -48,7 +49,7 @@ const Home: React.FC = () => {
                         <button className="contact-btn">Entre em contato</button>
                     </section>
                     <section className="content-img">
-                        <img src={Ilustration1} alt="" />
+                        <Img src={Ilustration1} alt="people-img" debounce={300} />
                     </section>
                 </MainContent>
                 <QuantitativeArea />
@@ -72,8 +73,8 @@ const Home: React.FC = () => {
                                 image={person.image}
                                 website={person.website}
                                 description="Lorem Ipsum este pur şi simplu o machetă 
-                        pentru text a industriei tipografice. Lorem Ipsum a 
-                        fost macheta standard a industriei încă din secolul al XVI-lea."
+                                pentru text a industriei tipografice. Lorem Ipsum a 
+                                fost macheta standard a industriei încă din secolul al XVI-lea."
                                 rate={4.5}
                             />
                         ))}
