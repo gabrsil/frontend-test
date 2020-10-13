@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -34,5 +34,27 @@ a {
     text-decoration: none;
 }
 
+button.global-btn {
+    border: none;
+    background-color: #00A536;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 8px;
+    height: 50px;
+    box-shadow: 0px 30px 25px -15px rgba(0, 165, 54, 0.35);
+    transition: 0.2s;
 
-`
+    :hover {
+        filter: brightness(1.1);
+        box-shadow: 0px 30px 30px -15px rgba(0, 165, 54, 0.35);
+    }
+}
+
+:root {
+    --main-darkblue: #0b132a;
+    --main-lightgreen: #00a536;
+}
+
+
+`;
