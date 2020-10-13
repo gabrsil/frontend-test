@@ -46,7 +46,7 @@ const Home: React.FC = () => {
                             Somos a solução que o seu comércio precisa pra lidar com entregas de forma prática e
                             objetiva.
                         </p>
-                        <button className="contact-btn">Entre em contato</button>
+                        <button className="global-btn">Entre em contato</button>
                     </section>
                     <section className="content-img">
                         <Img src={Ilustration1} alt="people-img" debounce={300} />
