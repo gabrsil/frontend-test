@@ -46,7 +46,8 @@ button.global-btn {
 
     :hover {
         filter: brightness(1.1);
-        box-shadow: 0px 30px 30px -15px rgba(0, 165, 54, 0.35);
+        transform: translateY(-3px);
+        box-shadow: 0px 30px 30px -12px rgba(0, 165, 54, 0.5);
     }
 }
 
