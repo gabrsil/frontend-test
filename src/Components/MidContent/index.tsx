@@ -7,7 +7,7 @@ const MidContent: React.FC = () => {
     return (
         <Container>
             <section className="img-side">
-                <Img src={Ilustration2} alt="people" debounce={800} />
+                <Img src={Ilustration2} alt="people" debounce={300} />
             </section>
             <section className="content-side">
                 <h1>Gerencie as entregas do seu comércio</h1>
