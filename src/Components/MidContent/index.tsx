@@ -1,13 +1,13 @@
 import React from 'react';
 import Ilustration2 from '../../assets/Illustration 2.svg';
-
+import Img from 'react-cool-img';
 import { Container, CheckIcon } from './styles';
 
 const MidContent: React.FC = () => {
     return (
         <Container>
             <section className="img-side">
-                <img src={Ilustration2} alt="" />
+                <Img src={Ilustration2} alt="people" debounce={800} />
             </section>
             <section className="content-side">
                 <h1>Gerencie as entregas do seu comércio</h1>
