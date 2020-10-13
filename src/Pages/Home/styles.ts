@@ -34,17 +34,6 @@ export const MainContent = styled.div`
             margin: 20px 0;
             color: #4f5665;
         }
-
-        button.contact-btn {
-            border: none;
-            background-color: #00a536;
-            color: #fff;
-            font-weight: bold;
-            padding: 10px 50px;
-            border-radius: 8px;
-            height: 50px;
-            box-shadow: 0px 30px 25px -15px rgba(0, 165, 54, 0.35);
-        }
     }
     section.content-img {
         img {
