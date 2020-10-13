@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
 body {
     -webkit-font-smoothing: antialiased;
     font-family: 'Rubik', sans-serif;
-    background-color: #f5f5f5;
 }
 
 body, input, button {
